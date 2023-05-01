@@ -21,7 +21,7 @@
   font-family: "Roboto", sans-serif;
   font-weight: 300 !important;
   font-style: italic;
-  font-size: 1.5vw;
+  font-size: 18px;
 }
 
 .mail-icon-background {
@@ -56,10 +56,10 @@ button {
   background-color: #212222;
 }
 
-#container-3 a:after {
+/* #container-3 a:after {
   content: url("./assets/plus.svg");
   margin-left: 10px;
-}
+} */
 
 /* #container-3 div a:last-child:after {
   content: none;
@@ -88,4 +88,8 @@ button {
 iframe:first-of-type {
   width: 100%;
   height: 300px;
+}
+
+.btn {
+  background-color: #ff7000;
 }
